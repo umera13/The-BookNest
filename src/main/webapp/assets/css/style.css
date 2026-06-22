@@ -1,0 +1,321 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    width: 100%;
+    height: 80px;
+
+    background-color: #111827;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+
+    border-bottom: 1px solid #1f2937;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #8b5cf6;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   SEARCH BAR
+========================= */
+
+.search-section form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input{
+    width: 350px;
+    height: 45px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+
+    padding: 0 15px;
+
+    background-color: #1e293b;
+    color: white;
+
+    font-size: 14px;
+}
+
+.search-input::placeholder{
+    color: #94a3b8;
+}
+
+.search-btn{
+    height: 45px;
+    padding: 0 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #8b5cf6;
+    color: white;
+
+    cursor: pointer;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.search-btn:hover{
+    background-color: #7c3aed;
+}
+
+
+/* =========================
+   NAVIGATION LINKS
+========================= */
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a{
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #8b5cf6;
+}
+
+
+/* =========================
+   LOGIN BUTTON
+========================= */
+
+.login-btn{
+    background-color: #8b5cf6;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    background-color: #7c3aed;
+    color: white !important;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer{
+    background-color: #111827;
+
+    margin-top: 60px;
+
+    border-top: 1px solid #1f2937;
+}
+
+
+/* =========================
+   FOOTER CONTAINER
+========================= */
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 40px;
+
+    padding: 50px;
+}
+
+
+/* =========================
+   FOOTER SECTION
+========================= */
+
+.footer-section h3{
+    margin-bottom: 20px;
+
+    color: #8b5cf6;
+}
+
+.footer-section ul{
+    list-style: none;
+}
+
+.footer-section ul li{
+    margin-bottom: 12px;
+
+    color: #cbd5e1;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.footer-section ul li:hover{
+    color: #8b5cf6;
+}
+
+
+/* =========================
+   FOOTER LOGO
+========================= */
+
+.footer-logo{
+    font-size: 28px;
+    color: #8b5cf6;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   FOOTER DESCRIPTION
+========================= */
+
+.footer-description{
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   FOOTER TEXT
+========================= */
+
+.footer-section p{
+    color: #cbd5e1;
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   FOOTER BOTTOM
+========================= */
+
+.footer-bottom{
+    border-top: 1px solid #1f2937;
+
+    padding: 20px;
+
+    text-align: center;
+
+    color: #94a3b8;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media(max-width: 992px){
+
+    .navbar{
+        flex-direction: column;
+        height: auto;
+
+        gap: 20px;
+
+        padding: 20px;
+    }
+
+    .search-input{
+        width: 250px;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width: 768px){
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .search-section form{
+        flex-direction: column;
+    }
+
+    .search-input{
+        width: 100%;
+    }
+}
+.hero-image{
+    width: 100%;
+    max-width: 650px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(138, 92, 246, 0.25);
+}
