@@ -86,28 +86,25 @@ BookNest follows the MVC (Model View Controller) architecture.
 ## 📸 Screens
 
 ### Home Page
-- Hero Section
-- Categories
-- Featured Books
+![Home Page](screenshots/BookNest%20Home.png)
 
 ### Product Page
-- Search Functionality
-- Category Filtering
+![Product Page](screenshots/Products.png)
 
 ### Cart Page
-- Quantity Management
-- Order Summary
+![Cart Page](screenshots/CartBook.png)
 
 ### Order Success Page
-- Professional Order Confirmation
-- Order Tracking Information
+![Order Success Page](screenshots/OrdreSuccessBook.png)
+
+### My Orders
+![My Orders](screenshots/MyOrdersBook.png)
 
 ---
 
 ## 💾 Database
 
 Tables Used:
-
 - users
 - categories
 - products
@@ -121,7 +118,6 @@ Tables Used:
 ## 🎯 Learning Outcomes
 
 Through this project I gained practical experience in:
-
 - Java Full Stack Development
 - JDBC Connectivity
 - MVC Architecture
@@ -137,11 +133,8 @@ Through this project I gained practical experience in:
 
 **Umera Bepari**
 
-GitHub:
-https://github.com/umera13
+GitHub: https://github.com/umera13
 
-LinkedIn:
-https://www.linkedin.com/in/umera13/
+LinkedIn: https://www.linkedin.com/in/umera13/
 
-Email:
-umerabepari1312@gmail.com
+Email: umerabepari1312@gmail.com
